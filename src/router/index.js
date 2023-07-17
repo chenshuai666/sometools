@@ -10,6 +10,8 @@ const routes = [
             { path: '/count-to', component: () => import('@/components/Countup.vue'), name: 'count-to' },
             { path: '/image-lazyload', component: () => import('@/components/Imagelazy.vue'), name: 'image-lazyload' },
             { path: '/drag', component: () => import('@/components/Drag.vue'), name: 'drag' },
+            { path: '/todolist', component: () => import('@/components/Todolist.vue'), name: 'todolist' },
+            { path: '/timeline', component: () => import('@/components/Timeline.vue'), name: 'timeline' },
             
         ]
     }

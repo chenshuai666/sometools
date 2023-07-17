@@ -5,6 +5,8 @@
         <li data-toPage="/count-to">数字滚动</li>
         <li data-toPage="/image-lazyload">图片懒加载</li>
         <li data-toPage="/drag">拖拽</li>
+        <li data-toPage="/todolist">todolist</li>
+        <li data-toPage="timeline">时间轴</li>
       </ul>
     </div>
     <div class="content">
