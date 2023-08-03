@@ -12,6 +12,7 @@ const routes = [
             { path: '/drag', component: () => import('@/components/Drag.vue'), name: 'drag' },
             { path: '/todolist', component: () => import('@/components/Todolist.vue'), name: 'todolist' },
             { path: '/timeline', component: () => import('@/components/Timeline.vue'), name: 'timeline' },
+            { path: '/permission', component: () => import('@/components/Permission.vue'), name: 'permission' },
             
         ]
     }

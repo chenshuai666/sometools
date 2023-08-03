@@ -6,7 +6,8 @@
         <li data-toPage="/image-lazyload">图片懒加载</li>
         <li data-toPage="/drag">拖拽</li>
         <li data-toPage="/todolist">todolist</li>
-        <li data-toPage="timeline">时间轴</li>
+        <li data-toPage="/timeline">时间轴</li>
+        <li data-toPage="/permission">权限</li>
       </ul>
     </div>
     <div class="content">
@@ -26,6 +27,7 @@ const to = (e) => {
 <style lang="scss" scoped>
 .container{
   display: flex;
+  padding-top: 50px;
   .aside{
     width: 200px;
     flex-shrink: 0;
@@ -44,6 +46,9 @@ const to = (e) => {
         border-bottom: 1px solid black;
       }
     }
+  }
+  .content{
+    width: 100%;
   }
 }
 </style>

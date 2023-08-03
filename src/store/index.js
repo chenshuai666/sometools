@@ -10,3 +10,17 @@ export const useCounterStore = defineStore('counter', {
         double: (state) => state.count * 2
     }
 })
+
+export const useUserStore = defineStore('user', {
+    state: () => {
+        return {
+            roles: ['admin']
+        }
+    },
+    actions: {
+        changeRole(role) {
+            this.roles = [role]
+            console.log(this.roles)
+        }
+    }
+})
