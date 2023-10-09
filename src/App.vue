@@ -8,6 +8,7 @@
         <li data-toPage="/todolist">todolist</li>
         <li data-toPage="/timeline">时间轴</li>
         <li data-toPage="/permission">权限</li>
+        <li data-toPage="/login">登录</li>
       </ul>
     </div>
     <div class="content">

@@ -13,7 +13,7 @@ const routes = [
             { path: '/todolist', component: () => import('@/components/Todolist.vue'), name: 'todolist' },
             { path: '/timeline', component: () => import('@/components/Timeline.vue'), name: 'timeline' },
             { path: '/permission', component: () => import('@/components/Permission.vue'), name: 'permission' },
-            
+            { path: '/login', component: () => import('@/components/Login.vue'), name: 'login' },
         ]
     }
 ]
