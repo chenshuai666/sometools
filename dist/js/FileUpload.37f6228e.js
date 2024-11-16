@@ -1,0 +1,1 @@
+import{o as t,c as a,a as c}from"./index.03c44043.js";const r={__name:"FileUpload",setup(n){const e=async()=>{const o=await window.showDirectoryPicker();console.log(o)};return(o,s)=>(t(),a("div",null,[c("button",{onClick:e},"上传文件")]))}};export{r as default};

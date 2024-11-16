@@ -1,8 +1,19 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  -webkit-user-select: auto;
+  user-select: auto;
+  scrollbar-width: none;
+  -webkit-tap-highlight-color: transparent;
+
 }
 
 ul,li{
   list-style: none;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
 }

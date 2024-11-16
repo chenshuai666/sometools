@@ -1,1 +1,0 @@
-import{_ as a,l as c,g as i,b as e,c as s,w as o,k as _}from"./index-9e67d674.js";const n={class:"box"},r={class:"box"},d={__name:"Permission",setup(l){return c(),(m,p)=>{const t=i("hasRole");return e(),s("div",null,[o((e(),s("div",n,[_("admin")])),[[t,["admin"]]]),o((e(),s("div",r,[_("test")])),[[t,["test"]]])])}}},u=a(d,[["__scopeId","data-v-a8794763"]]);export{u as default};
